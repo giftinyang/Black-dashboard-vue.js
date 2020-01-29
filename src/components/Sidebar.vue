@@ -14,16 +14,16 @@
         </div>
         <ul class="nav">
           <li class="active ">
-            <a href="./dashboard.html">
+            <router-link to="./dashboard">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./icons.html">
+            <router-link to="./icons">
               <i class="tim-icons icon-atom"></i>
               <p>Icons</p>
-            </a>
+            </router-link>
           </li>
           <li>
             <a href="./map.html">
