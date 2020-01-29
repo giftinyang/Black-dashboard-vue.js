@@ -26,16 +26,16 @@
             </router-link>
           </li>
           <li>
-            <a href="./map.html">
+            <router-link to="./maps">
               <i class="tim-icons icon-pin"></i>
               <p>Maps</p>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="./notifications.html">
+            <router-link to="./notifications">
               <i class="tim-icons icon-bell-55"></i>
               <p>Notifications</p>
-            </a>
+            </router-link>
           </li>
           <li>
             <a href="./user.html">

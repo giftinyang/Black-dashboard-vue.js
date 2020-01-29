@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dashboard from "@/views/Dashboard";
 import Icons from "@/views/Icons";
+import Maps from "@/views/Maps";
+import Notifications from "@/views/Notifications";
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,17 @@ const routes = [
     component: Icons,
     name: 'icons'
 
+  },
+  {
+    path: '/maps',
+    component: Maps,
+    name: 'Maps'
+  },
+
+  {
+    path: '/notifications',
+    component: Notifications,
+    name: 'Notifications'
   }
  
 ]
